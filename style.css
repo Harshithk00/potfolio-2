@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+}
+.header{
+    background-color: #98EECC;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.quote{
+    font-size: 50px;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.quote-ex{
+    font-size: medium;
+    font-family: normal;
+    display: flex;
+    justify-content: center;
+    font-family: 'Edu SA Beginner', cursive;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.p1{
+    padding: 30px;
+}
+
+.projects-photo{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+     grid-template-rows: 1fr ;
+    /*grid-area: ; */
+    column-gap: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+     background-color: #FBFFDC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 100px;
+     
+}
+.i{
+    border: 3px solid #FAE392;
+    border-radius: 20%;
+    width: justify;
+    padding: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.i1{
+    border: 3px solid #FAE392;
+    border-radius: 20%;
+    padding: 20px;
+    margin-left: 32%;
+    margin-right: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+   
+}
+.i1-d{
+    background-color: #FBFFDC ;
+}
+.mep1{
+    font-family: 'Tektur', cursive;
+    
+}
+.mep2{
+    font-family: 'Preahvihear', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.about-me{
+    background-color: #D0F5BE;
+    
+}
+@media(max-width:800px){
+    .pic1{
+        height: 600px;
+    }
+    .projects-photo{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 100px;
+    }
+    .id-d{
+        display: grid;
+        grid-template-rows: 1fr;
+        
+}
+    .i1{
+        margin-left: 15%;
+        margin-right: 15%;
+        
+    }
+}
